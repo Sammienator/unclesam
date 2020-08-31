@@ -1,0 +1,408 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+body {
+ line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+ display:block;
+}
+nav ul {
+ list-style:none;
+}
+blockquote, q {
+ quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000;
+ font-style:italic;
+ font-weight:bold;
+}
+del {
+ text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0;
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+input, select {
+ vertical-align:middle;
+}
+/*MY CODE STARTS HERE*/
+
+* {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  background-color: #fff;
+  width:100%
+  height: 200px;
+}
+
+header .header-brand {
+  font-family: Piedra;
+  font-size:  24px;
+  font-weight: 400;
+  color: #111;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding:  0 16px;
+}
+
+header nav ul li a {
+  font-family: Piedra;
+  font-size:  16px;
+  font-weight: 900;
+  color: #111;
+}
+
+header .header-cases {
+  display: none;
+}
+
+@media only screen and (min-width:1000px) {
+  header .header-brand {
+
+    margin: 30px 0 ;
+    text-align: left;
+    line-height: 40px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+  header nav ul {
+
+    margin: 20px 0px 0 20px;
+    float: left;
+  }
+
+  header nav ul li a {
+
+    line-height: 60px;
+  }
+}
+
+
+
+/*INDEX*/
+
+
+.index-banner{
+  width: 100%;
+  height:calc(100vh -100px);
+  background-image: url('img/breakfast.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-centre {
+  display: table-cell;
+  vertical-align: middle;
+}
+.index-banner h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size:  60px;
+  font-weight: 900;
+  line-height: 70px;
+  color: #FAF30F;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size:  28px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 45px;
+  color: #FAF30F;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+  font-family: Piedra;
+  font-size:  28px;
+  font-weight: 300;
+  line-height: 100px;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width:1000px) {
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .index-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url('img/breakfast.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+/*Cases*/
+
+.cases-links div {
+  float: left;
+  width: 480px;
+  height: 240px;
+  background-color: #e3e3e3;
+
+}
+
+/*this is my footer */
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+
+}
+
+footer ul li {
+display: block;
+list-style: none;
+
+}
+
+footer ul li a {
+font-family: Piedra;
+font-size: 24px;
+color: #fff;
+line-height: 30px;
+}
+
+.footer-links-cases {
+  display: none;
+}
+
+.footer-sm {
+  width:40px;
+  float: right;
+}
+
+.footer-sm img {
+  width:100px;
+  margin-bottom: 10px;
+
+}
+@media only screen and (min-width:1000px) {
+  .footer-links-cases {
+    display: block;
+  }
+  footer ul {
+    padding-left: 40px;
+
+  }
+
+  footer ul li p {
+  font-family: Piedra;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  text-transform: uppercase;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  background-image: url('img/logo.jpg');
+  background-repeat: space;
+  background-position: center;
+  background-size: contain;
+
+
+}
+
+.item {
+color: #FFD700;
+text-shadow: 4px 4px 16px #1e1e1e;
+text-transform: uppercase;
+flex-basis: 20%;
+font-family: Piedra;
+font-size: 20px;
+
+}
+ video {
+   width: 100%;
+ }
+
+
+/*SERVICES PAGECODE*/
+
+
+.services {
+  font-family: 'Kaushan Script', cursive;
+  font-size:  30px;
+  font-weight: 450;
+  line-height: 70px;
+  color: #FFD700;
+  text-align: left;
+  text-shadow: 2px 2px 8px #1e1e1e;
+}
+
+.containserv {
+  width: 100%;
+  height: 900px;
+  background-color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  background-image: url('img/services.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+table {
+
+}
+
+th {
+  text-align: left;
+}
+
+table,th,td {
+  border: 3px solid #000;
+}
+
+
+/*RESERVATIONS CODE*/
+
+form {
+  width: 300px;
+}
+
+input {
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+  border: 1px solid rgb(255,215,0);
+}

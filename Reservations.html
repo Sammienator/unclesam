@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+  <title >Uncle Sam!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="STYLE.CSS">
+</head>
+ <body>
+   <!--THIS IS MY MAIN PAGE-->
+<header>
+<a href="index.html" class="header-brand">UncleSam</a>
+<nav>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="Aboutus.html">AboutUS</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="Menu's.html">Menu's</a></li>
+     <li><a href="Reservations.html">Reservations</a></li>
+     <li><a href="Urbanpoint.html">Urbanpoint</a></li>
+   </ul>
+   <a href="cases.html" class="header-cases">Cases</a>
+ </nav>
+
+</header>
+
+  <main>
+    <div class="wrapper">
+    <h1> RESERVATIONS.....</h1>
+	  <p> Book a table with us today. A  table for 2, 4, or even a family sized setup of 10-12 is available upon request.</p>
+
+<form action="reservationsform.php" method="post">
+
+  <input type="text" name="Name" placeholder="Write your name..">
+  <input type="text" name="email" placeholder="Write your e-mail..">
+  <input type="password" name="password" placeholder="password">
+  Male:<input type="radio" name="Gender" value="Male">
+  Female:<input type="radio" name="Gender" value="Female">
+  Other:<input type="radio" name="Gender" value="Other">
+  <br>
+  <p>Kindly indicate the number of Guests who will be joining us.</p>
+  <select  name="Number">
+    <option value="Number1">1</option>
+    <option value="Number2">2</option>
+    <option value="Number3">4</option>
+    <option value="Number4">6</option>
+    <option value="Number5">Family size</option>
+    <option value="Number6">Other(specifybelow)</option>
+  </select>
+  <p>Kindly let us know the most convinient time for you as per our reservations guidelines.</p>
+  <select  name="Time">
+
+    <option value="Time">12:00am</option>
+    <option value="Time">2:00pm</option>
+    <option value="Time">4:00pm</option>
+    <option value="Time">6:00pm</option>
+    <option value="Time">8:00pm</option>
+    <option value="Time">10:00pm</option>
+    <option value="Time">12:00pm</option>
+  </select>
+
+  <p>Kindly indicate your preffered type of service </p>
+  <select  name="SERVICE">
+    <option value="Service">NONE</option>
+    <option value="Service">Waiter Servie</option>
+    <option value="Service">Buffet Service</option>
+    <option value="Service">Self Service</option>
+  </select>
+  <br>
+
+  <p>Kindly let us know any additional details/special requests,or if you are celebrating a special occasion</p>
+  <br>
+  <textarea name="message" placeholder="Write a message!"></textarea>
+  <br>
+  <button type="submit" name="submit">Submit</button>
+
+</form>
+</main>
+<footer>
+  <ul class="footer-links-main">
+    <li> <a href="#">Cases </a></li>
+    <li> <a href="#"> AboutUS</a></li>
+    <li> <a href="#"> Menu's</a></li>
+    <li> <a href="#"> Services</a></li>
+    <li> <a href="#"> Reservations</a></li>
+    <li> <a href="#"> Urbanpoint.</a></li>
+  </ul>
+  <ul class="footer-links-cases">
+    <li> <p>Latest Cases/projects</p> </a></li>
+    <li> <a href="#">Cultural day-Buruburu Institute </a></li>
+    <li> <a href="#"> Trippy Tours-Camping </a></li>
+    <li> <a href="#"> Mombasa-Food Courses</a></li>
+    <li> <a href="#">Graduation 2020-Food Galore </a></li>
+    <li> <a href="#"> Cheese Burger-Ketchup </a></li>
+  </ul>
+  <div class="footer-sm">
+    <a href="#">
+      <img src="img/youtube.png" alt="Youtube icon">
+    </a>
+    <a href="#">
+      <img src="img/twitter icon.png" alt="Twitter icon">
+    </a>
+    <a href="#">
+      <img src="img/facebook icon.png" alt="Facebook icon">
+    </a>
+  </div>
+</footer>
+</div>
+</body>
+</html>

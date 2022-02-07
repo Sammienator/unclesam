@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body{
+    list-style: none;
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #11245a;
+
+}
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+small{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbar{
+    border-bottom: 1px solid gray;
+}
+.navbar, .nav-link{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+     
+
+}
+.navbar-light, .navbar-nav, .nav-link.active{
+    color: #e93881;
+}
+#home{
+    
+    
+    background: linear-gradient(rgb(17,36,90,0.8), rgb(17,36,90,0.8)), url('images/pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+#home h1{
+    max-width: 550px;
+    margin: auto;
+    font-weight: 700;
+}
+#home p{
+    max-width: 550px;
+    margin: 12px   auto;
+}
+.btn{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 0;
+
+}
+.btn-brand{
+    background-color: aqua;
+    color: #fff;
+}
+.btn-brand:hover{
+   background-color: #e93881;
+   color: #fff; 
+}
+
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    margin: 8px 0px;
+    display: block;
+}
+
+
+
+.skills{
+    text-align: center;
+    align-items: center;
+}
+ 
+
+
+
+
+.page-footer {
+    margin-top: 300px
+}
+
+body {
+    background-color: #E0E0E0
+}
+.footer-copyright{
+    text-align: center;
+}
